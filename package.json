@@ -1,0 +1,19 @@
+{
+  "name": "testworkseleniumwebdriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chromedriver": "92.0.1",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  },
+  "scripts": {
+    "test": "mocha tests --timeout 60000"
+  },
+  "author": "",
+  "license": "ISC"
+}
